@@ -1,0 +1,6 @@
+# .NET build output for the helper tools (rebuild with `dotnet publish`)
+bin/
+obj/
+
+# Runtime logs
+*.log
