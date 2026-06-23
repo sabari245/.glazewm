@@ -276,6 +276,11 @@ keybindings:
   - commands: ['shell-exec C:\Users\vorde\.glzr\glazewm\tools\next-empty\bin\next-empty-workspace.exe']
     bindings: ["win+n"]
 
+  # Same, but also moves the focused window to the next empty workspace and
+  # follows it. The workspace-compactor daemon keeps things gap-free afterwards.
+  - commands: ['shell-exec C:\Users\vorde\.glzr\glazewm\tools\next-empty\bin\next-empty-workspace.exe --move']
+    bindings: ["win+shift+n"]
+
   # Change focus to a workspace defined in `workspaces` config.
   - commands: ["focus --workspace 1"]
     bindings: ["win+1"]
